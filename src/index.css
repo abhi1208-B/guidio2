@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --karnataka-green: #144533;
+  --karnataka-dark: #0c2b20;
+  --karnataka-gold: #c98a2c;
+  --sand-50: #fcfbf9;
+  --sand-100: #f5f2ea;
+  --sand-200: #eae4d5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for horizontal category scrolling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2b8a3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9d9178;
+}

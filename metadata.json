@@ -1,0 +1,7 @@
+{
+  "name": "Guido - Karnataka Tourist & Local Guide Platform",
+  "description": "Discover Karnataka through local eyes. Explore 40+ destinations with verified photos, connect with certified local guides, book curated experiences, and share community travel stories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
